@@ -21,17 +21,17 @@ $(document).ready(function (e) {
                     setTimeout(function () {
                         var n, o, r;
                         $(".chat-content-list").append(
-                            '<form name="questionForm" class="form"><div class="form-group"><div class="form-group-inline"><select name="day" class="custom-select select-day"><option value="" selected="selected">วัน</option>' +
+                            '<form name="questionForm" class="form"><div class="form-group"><div class="form-group-inline"><select name="day" class="custom-select select-day"><option value="" selected="selected">day</option>' +
                                 (function () {
                                     for (i = e.DateBirthday[0].day[0]; i < e.DateBirthday[0].day[1] + 1; i++) n += '<option value="' + i + '">' + i + "</option>";
                                     return n;
                                 })() +
-                                '</select></div><div class="form-group-inline full-month"><select name="month" class="custom-select select-month"><option value="" selected="selected">เดือน</option>' +
+                                '</select></div><div class="form-group-inline full-month"><select name="month" class="custom-select select-month"><option value="" selected="selected">month</option>' +
                                 ($.each(e.DateBirthday[0].month, function (e, t) {
                                     o += '<option value="' + (e + 1) + '">' + t + "</option>";
                                 }),
                                 o) +
-                                '</select></div><div class="form-group-inline year"><select name="year" class="custom-select select-year"><option value="" selected="selected">ปี</option>' +
+                                '</select></div><div class="form-group-inline year"><select name="year" class="custom-select select-year"><option value="" selected="selected">year</option>' +
                                 (function () {
                                     for (i = e.DateBirthday[0].year[0]; i < e.DateBirthday[0].year[1] + 1; i++) r += '<option value="' + i + '">' + i + "</option>";
                                     return r;
@@ -97,14 +97,14 @@ $(document).ready(function (e) {
         (e.managerDialog = [
             {
                 text:
-                    "สวัสดีค่ะ! ฉัน <b style='color: rgb(134, 144, 254);'>เอ จักรพรรดิ</b>!<br><br>คำทำนายสำหรับ " +
-                    ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "มกราคม,กุมภาพันธ,มีนาคม,เมษายน,พฤษภาคม,มิถุนายน,กรกฎาคม,สิงหาคม,กันยายน,ตุลาคม,พฤศจิกายน,ธันวาคม".split(",")), monthA[p.getMonth()]) +
-                    " ของฉันทำให้ คนไทย ทั้งประเทศอึ้งกันไปหมด 3 ราศีจะเริ่มทำเงินได้มากขึ้นในขณะที่ 2 ราศีจะเงินขาดมือ<br><br>ตอบคำถาม 2 ข้อเพื่อรับคำทำนายฟรี.",
+                    "Hello! I am<b style='color: rgb(134, 144, 254);'>Hanz Cua</b>!<br><br>Những dự đoán" +
+                    ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec".split(",")), monthA[p.getMonth()]) +
+                    "của tôi khiến người Thái cả nước choáng váng 3 cung hoàng đạo sẽ bắt đầu kiếm được nhiều tiền hơn trong khi 2 cung hoàng đạo sẽ hết sạch tiền.",
             },
-            { text: "คุณเป็นผู้ชายหรือผู้หญิง?", m: { text: "ชาย" }, w: { text: "หญิง" } },
-            { text: "คุณเกิดเมื่อใด?" },
+            { text: "Bạn là Nam hay Nữ", m: { text: "Nam" }, w: { text: "Nữ" } },
+            { text: "Bạn sinh ra khi nào?" },
         ]),
-        (e.userZodiak = [{ text: "ขอบคุณ! ตามดวง คุณคือ - <p>{zodie}</p>. <p class='hidden-zodie' style='display: none'>{zodie}</p>" }]),
+        (e.userZodiak = [{ text: "Cảm ơn! Theo tử vi của bạn, bạn là - <p>{zodie}</p>. <p class='hidden-zodie' style='display: none'>{zodie}</p>" }]),
         (e.managerVariants = {
             w: [
                 [
@@ -257,34 +257,34 @@ $(document).ready(function (e) {
             return e.zodiak;
         }),
         (e.ZodiakName = [
-                      {name: "ปีชวด", id: 1},
-                      {name: "ปีฉลู", id: 2},
-                      {name: "ปีขาล", id: 3},
-                      {name: "ปีเถาะ", id: 4},
-                      {name: "ปีมะโรง", id: 5},
-                      {name: "ปีมะเส็ง", id: 6},
-                      {name: "ปีมะเมีย", id: 7},
-                      {name: "ปีมะแม", id: 8},
-                      {name: "ปีวอก", id: 9},
-                      {name: "ปีระกา", id: 10},
-                      {name: "ปีจอ", id: 11},
-                      {name: "ปีกุน", id: 12},
+                      {name: "Mouse", id: 1},
+                      {name: "Ox", id: 2},
+                      {name: "Tiger", id: 3},
+                      {name: "Rabbit", id: 4},
+                      {name: "Dragon", id: 5},
+                      {name: "Snake", id: 6},
+                      {name: "Horse", id: 7},
+                      {name: "Goat", id: 8},
+                      {name: "Monkey", id: 9},
+                      {name: "Chicken", id: 10},
+                      {name: "Dog", id: 11},
+                      {name: "Pig", id: 12},
         ]),
-        (e.DateBirthday = [{ day: [1, 31], month: ["มกราคม", "กุมภาพันธ์", "มีนาคม", "เมษายน", "พฤษภาคม", "มิถุนายน", "กรกฎาคม", "สิงหาคม", "กันยายน", "ตุลาคม", "พฤศจิกายน", "ธันวาคม"], year: [2491, 2565] }]),
+        (e.DateBirthday = [{ day: [1, 31], month: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], year: [2491, 2565] }]),
         (e.MonthVariantType = ["january", "fabruary", "march", "april", "may", "june", "august", "august", "september", "october", "november", "december"]),
         (e.MonthVariant = {
-            january: ["январь", "января", "январе"],
-            fabruary: ["февраль", "февраля", "феврале"],
-            march: ["март", "марта", "марте"],
-            april: ["апрель", "апреля", "апреле"],
-            may: ["май", "мая", "мае"],
-            june: ["июнь", "июня", "июне"],
-            july: ["июль", "июля", "июле"],
-            august: ["август", "августа", "августе"],
-            september: ["сентябрь", "сентября", "сентябре"],
-            october: ["октябрь", "октября", "октебре"],
-            november: ["ноябрь", "ноября", "ноябре"],
-            december: ["декабрь", "декабря", "декабре"],
+            january: ["01", "01", "01"],
+            fabruary: ["02", "02", "02"],
+            march: ["03", "03", "03"],
+            april: ["04", "04", "04"],
+            may: ["05", "05", "05"],
+            june: ["06", "06", "06"],
+            july: ["07", "07", "07"],
+            august: ["08", "08", "08"],
+            september: ["09", "09", "09"],
+            october: ["10", "10", "10"],
+            november: ["11", "11", "11"],
+            december: ["12", "12", "12"],
         }),
         (e.Scroll = function () {
             $(document).ready(function () {
