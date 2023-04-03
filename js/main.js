@@ -97,9 +97,9 @@ $(document).ready(function (e) {
         (e.managerDialog = [
             {
                 text:
-                    "Hello! I am<b style='color: rgb(134, 144, 254);'>Hanz Cua</b>!<br><br>Những dự đoán" +
+                    "Hello! I am<b style='color: rgb(134, 144, 254);'>Hanz Cua</b>!<br><br>Những dự đoán " +
                     ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec".split(",")), monthA[p.getMonth()]) +
-                    "của tôi khiến người Thái cả nước choáng váng 3 cung hoàng đạo sẽ bắt đầu kiếm được nhiều tiền hơn trong khi 2 cung hoàng đạo sẽ hết sạch tiền.",
+                    " của tôi khiến người Thái cả nước choáng váng 3 cung hoàng đạo sẽ bắt đầu kiếm được nhiều tiền hơn trong khi 2 cung hoàng đạo sẽ hết sạch tiền.",
             },
             { text: "Bạn là Nam hay Nữ", m: { text: "Nam" }, w: { text: "Nữ" } },
             { text: "Bạn sinh ra khi nào?" },
@@ -111,41 +111,41 @@ $(document).ready(function (e) {
                     [
                         {
                             text:
-                                "ราศี \"<b>{zodie}</b>\" จะมีการปฏิวัติทางการเงินในอนาคตอันใกล้นี้ แต่ตอนนี้โชคทางการเงินของคุณอยู่ในจุดต่ำสุด คุณปฏิเสธตัวคุณเองในหลายสิ่งหลายอย่าง หนี้สินกำลังตามหลอกหลอนคุณ ตามดวงแล้ว คุณมักจะผลักเงินทองและโชคลาภออกไปจากชีวิตของคุณ",
+                                "cung hoàng đạo \"<b>{zodie}</b>\" Sẽ có một cuộc cách mạng tài chính trong tương lai gần. Nhưng bây giờ vận may tài chính của bạn đang ở mức thấp nhất. Bạn phủ nhận bản thân nhiều điều. Các khoản nợ đang ám ảnh bạn Theo tử vi, bạn có xu hướng đẩy tiền tài và vận may ra khỏi cuộc sống của mình.",
                         },
-                        { text: "คุณจะไม่สามารถออกไปจากสถานการณ์ที่ย่ำแย่นี้ได้ในปีที่จะมาถึงหากคุณไม่เลือกในสิ่งที่ถูกต้องซึ่งย่อมจะหมายถึงการปฏิวัติทางการเงินนั่นเอง" },
-                        { text: "หากคุณอยากจะเลิกยากจนในปี 2566 คุณจะต้องฟังในสิ่งที่ฉันกำลังจะบอกคุณให้ดี" },
+                        { text: "Bạn sẽ không thể thoát khỏi tình trạng tồi tệ này trong năm tới nếu bạn không đưa ra những lựa chọn đúng đắn, điều này chắc chắn sẽ dẫn đến một cuộc cách mạng tài chính." },
+                        { text: "Nếu bạn muốn chấm dứt nghèo đói vào năm 2023, bạn cần lắng nghe kỹ những gì tôi sắp nói với bạn." },
                         {
                             text:
-                                "ฉันมองเห็นได้อย่างชัดเจนว่า คุณจะมีโอกาสในการเปลี่ยนแปลงทิศทางที่กำหนดใน" +
-                                ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "มกราคม,กุมภาพันธ,มีนาคม,เมษายน,พฤษภาคม,มิถุนายน,กรกฎาคม,สิงหาคม,กันยายน,ตุลาคม,พฤศจิกายน,ธันวาคม".split(",")), monthA[p.getMonth()]) +
-                                " นี่จะเป็นช่วงเวลาที่ดีในการเปลี่ยนแปลงชีวิตของคุณจากเคราะห์ร้ายให้เป็นโชคดีไปจนสิ้นอายุขัยของคุณ",
+                                "tôi có thể thấy rõ rằng Bạn sẽ có cơ hội thay đổi hướng được đưa ra trong" +
+                                ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January,February,March,April,May,June,July,August,September,October,November,December".split(",")), monthA[p.getMonth()]) +
+                                " Đây sẽ là thời điểm tuyệt vời để thay đổi cuộc đời bạn từ bất hạnh thành may mắn cho đến cuối đời.",
                         },
-                        { text: "ไม่มีอะไรในชีวิตของคุณที่เกิดขึ้นโดยบังเอิญ ราศี \"<b>{zodie}</b>\" มีความเปราะบางต่อพลังงานที่ไม่ดี คุณจะต้องปกป้องตัวคุณเองและดึงดูดโชคเรื่องเงินทองไปพร้อมกัน" },
+                        { text: "Không có gì trong cuộc sống của bạn xảy ra một cách tình cờ. \"<b>{zodie}</b>\" Dễ bị tổn thương bởi năng lượng xấu Bạn sẽ phải tự bảo vệ mình và thu hút tiền may mắn trên đường đi." },
                     ],
                     [
-                        { text: "<b>วิธีดึงดูดเงินและโชคลาภสำหรับราศีของคุณในปี 2566?</b>" },
+                        { text: "<b>Làm thế nào để thu hút tiền tài và vận may cho cung hoàng đạo của bạn trong năm 2023?</b>" },
                         /*{
                             text:
                                 "Сразу хочу вас предупредить, что в вашей ситуации обычные заговоры не помогут. Тут нужно действовать наверняка и смотреть в корень проблемы. Простой заговор не сможет решить вашу проблему, а только ухудшит ситуацию.",
                         },*/
 
-                        { text: "นี่จะเป็นโอกาสสุดท้ายในการเปลี่ยนแปลงโชคชะตาของคุณในปี 2566 หากคุณพลาดเครื่องรางนี้ ชีวิตของคุณจะยังคงเป็นเหมือนเดิมต่อไป คุณคือคนที่ต้องตัดสินใจในเรื่องนี้เอง!" },
-                        { text: "ฉันจะช่วยคุณในการดึงดูดเงินทองและโชคลาภให้เข้ามาหาราศีของคุณในปี 2566 หากคุณตกลง คุณจะลืมไปเลยว่า ความจนเป็นอย่างไร ฉันจะปลดปล่อยโชคลาภของคุณที่ถูกกักขังให้คุณเอง" },
-                        { text: "ฉันจะสร้างเครื่องรางพิเศษสำหรับคุณ ฉันจะใส่พลังลงไปในเครื่องรางด้วยมนต์วิเศษซึ่งจะทำให้พลังงานด้านมืดของคุณหมดไป" },
-                        {text: " <br> <img width='200px' src='img/product.jpg'> </br> เครื่องรางจะมีลักษณะดังนี้ "},
-                        { text: "ทำไมคุณถึงต้องมีเครื่องรางนี้?" },
-                        { text: "เครื่องรางนี้จะเปลี่ยนแปลงชีวิตของคุณจากหน้ามือเป็นหลังมือภายในเวลาแค่เดือนเดียว หนี้สินทั้งหมดของคุณจะหมดไป เงินทองจะหลั่งไหลเข้ามาหาคุณจากช่องทางต่างๆ และคุณจะสามารถลืมความล้มเหลวทางการเงิน และจะมีเงินไปตลอดชีวิตที่เหลืออยู่ของคุณ"},
+                        { text: "Đây sẽ là cơ hội cuối cùng để thay đổi vận mệnh của bạn trong năm 2023 nếu bạn bỏ lỡ bùa hộ mệnh này. Cuộc sống của bạn sẽ tiếp tục như vậy. Bạn là người phải đưa ra quyết định!" },
+                        { text: "Tôi sẽ giúp bạn thu hút tiền tài và vận may đến với cung hoàng đạo của bạn trong năm 2023. Nếu bạn đồng ý, bạn sẽ quên điều đó đi. thế nào là nghèo Tôi sẽ giải phóng tài sản bị giam cầm của bạn cho bạn." },
+                        { text: "Tôi sẽ tạo ra một bùa hộ mệnh đặc biệt cho bạn. Tôi sẽ đặt sức mạnh vào chiếc bùa hộ mệnh bằng một câu thần chú sẽ rút cạn năng lượng đen tối của bạn." },
+                        {text: " <br> <img width='200px' src='img/product.jpg'> </br> Bùa hộ mệnh trông như thế này: "},
+                        { text: "Tại sao bạn cần bùa hộ mệnh này?" },
+                        { text: "Bùa hộ mệnh này sẽ thay đổi hoàn toàn cuộc sống của bạn chỉ trong một tháng. Tất cả các khoản nợ của bạn đã biến mất. Tiền sẽ đến với bạn từ nhiều kênh khác nhau. Và bạn sẽ có thể quên đi những thất bại tài chính. Và sẽ có tiền cho đến hết đời."},
                         {
                             text:
-                                'ฉันพยายามช่วยเหลือผู้คนแก้ปัญหาอยู่เสมอ และฉันไม่เคยหากำไรจากการทำเช่นนั้น นั่นจึงเป็นเหตุผลที่จนกระทั่งถึงเดือน ' + ( new Date().getDate() + 1 ) + ' ' +
-                                ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "มกราคม,กุมภาพันธ,มีนาคม,เมษายน,พฤษภาคม,มิถุนายน,กรกฎาคม,สิงหาคม,กันยายน,ตุลาคม,พฤศจิกายน,ธันวาคม".split(",")), monthA[p.getMonth()]) + ' คุณจะได้รับส่วนลด 50% สำหรับเครื่องราง ราคาสำหรับคุณจึงจะอยู่ที่ <b>' +
+                                'Tôi luôn cố gắng giúp mọi người giải quyết vấn đề. Và tôi không bao giờ kiếm được lợi nhuận từ việc làm như vậy. Chính vì thế cho đến tháng' + ( new Date().getDate() + 1 ) + ' ' +
+                                ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January, February, March, April, May, June, July, August, September, October, November, December.".split(",")), monthA[p.getMonth()]) + ' You will receive a 50% discount on the amulet. The price for you will be <b>' +
                                 '1290' +
                                 '</b> <b>' +
                                 '฿' +
-                                " เท่านั้น </b>",
+                                " only </b>",
                         },
-                        {text: "คุณสามารถสั่งซื้อเครื่องรางได้ในตอนนี้เลย! แค่กรอกชื่อและหมายเลขโทรศัพท์ของคุณลงในแบบฟอร์ม และชีวิตของคุณจะเปลี่ยนแปลงไป ฉันสัญญากับคุณเลย!<br><br> "}
+                        {text: "Bạn có thể đặt một chiếc bùa hộ mệnh ngay bây giờ! Chỉ cần nhập tên và số điện thoại của bạn vào mẫu. và cuộc sống của bạn sẽ thay đổi Tôi hứa với bạn!<br><br> "}
                     ],
                 ],
             ],
@@ -154,41 +154,41 @@ $(document).ready(function (e) {
                     [
                         {
                             text:
-                                "ราศี \"<b>{zodie}</b>\" จะมีการปฏิวัติทางการเงินในอนาคตอันใกล้นี้ แต่ตอนนี้โชคทางการเงินของคุณอยู่ในจุดต่ำสุด คุณปฏิเสธตัวคุณเองในหลายสิ่งหลายอย่าง หนี้สินกำลังตามหลอกหลอนคุณ ตามดวงแล้ว คุณมักจะผลักเงินทองและโชคลาภออกไปจากชีวิตของคุณ",
+                                "zodiac \"<b>{zodie}</b>\" Sẽ có một cuộc cách mạng tài chính trong tương lai gần. Nhưng bây giờ vận may tài chính của bạn đang ở mức thấp nhất. Bạn phủ nhận bản thân nhiều điều. Các khoản nợ đang ám ảnh bạn Theo tử vi, bạn có xu hướng đẩy tiền tài và vận may ra khỏi cuộc sống của mình.",
                         },
-                        { text: "คุณจะไม่สามารถออกไปจากสถานการณ์ที่ย่ำแย่นี้ได้ในปีที่จะมาถึงหากคุณไม่เลือกในสิ่งที่ถูกต้องซึ่งย่อมจะหมายถึงการปฏิวัติทางการเงินนั่นเอง" },
-                        { text: "หากคุณอยากจะเลิกยากจนในปี 2566 คุณจะต้องฟังในสิ่งที่ฉันกำลังจะบอกคุณให้ดี" },
+                        { text: "Bạn sẽ không thể thoát khỏi tình trạng tồi tệ này trong năm tới nếu bạn không đưa ra những lựa chọn đúng đắn, điều này chắc chắn sẽ dẫn đến một cuộc cách mạng tài chính." },
+                        { text: "Nếu bạn muốn chấm dứt nghèo đói vào năm 2023, bạn cần lắng nghe cẩn thận những gì tôi đang nói với bạn." },
                         {
                             text:
-                                "ฉันมองเห็นได้อย่างชัดเจนว่า คุณจะมีโอกาสในการเปลี่ยนแปลงทิศทางที่กำหนดใน" +
-                                ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "มกราคม,กุมภาพันธ,มีนาคม,เมษายน,พฤษภาคม,มิถุนายน,กรกฎาคม,สิงหาคม,กันยายน,ตุลาคม,พฤศจิกายน,ธันวาคม".split(",")), monthA[p.getMonth()]) +
-                                " นี่จะเป็นช่วงเวลาที่ดีในการเปลี่ยนแปลงชีวิตของคุณจากเคราะห์ร้ายให้เป็นโชคดีไปจนสิ้นอายุขัยของคุณ",
+                                "tôi có thể thấy rõ rằng Bạn sẽ có cơ hội thay đổi hướng được đưa ra trong" +
+                                ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January, February, March, April, May, June, July, August, September, October, November, December.".split(",")), monthA[p.getMonth()]) +
+                                " Đây sẽ là thời điểm tuyệt vời để thay đổi cuộc đời bạn từ bất hạnh thành may mắn cho đến cuối đời.",
                         },
-                        { text: "ไม่มีอะไรในชีวิตของคุณที่เกิดขึ้นโดยบังเอิญ ราศี \"<b>{zodie}</b>\" มีความเปราะบางต่อพลังงานที่ไม่ดี คุณจะต้องปกป้องตัวคุณเองและดึงดูดโชคเรื่องเงินทองไปพร้อมกัน" },
+                        { text: "Không có gì trong cuộc sống của bạn xảy ra một cách tình cờ. \"<b>{zodie}</b>\" Dễ bị tổn thương bởi năng lượng xấu Bạn sẽ phải tự bảo vệ mình và thu hút tiền may mắn trên đường đi." },
                     ],
                     [
-                        { text: "<b>วิธีดึงดูดเงินและโชคลาภสำหรับราศีของคุณในปี 2566?</b>" },
+                        { text: "<b>Cách thu hút tiền và tài lộc cho cung hoàng đạo của bạn vào năm 2023?</b>" },
                         /*{
                             text:
                                 "Сразу хочу вас предупредить, что в вашей ситуации обычные заговоры не помогут. Тут нужно действовать наверняка и смотреть в корень проблемы. Простой заговор не сможет решить вашу проблему, а только ухудшит ситуацию.",
                         },*/
 
-                        { text: "นี่จะเป็นโอกาสสุดท้ายในการเปลี่ยนแปลงโชคชะตาของคุณในปี 2566 หากคุณพลาดเครื่องรางนี้ ชีวิตของคุณจะยังคงเป็นเหมือนเดิมต่อไป คุณคือคนที่ต้องตัดสินใจในเรื่องนี้เอง!" },
-                        { text: "ฉันจะช่วยคุณในการดึงดูดเงินทองและโชคลาภให้เข้ามาหาราศีของคุณในปี 2566 หากคุณตกลง คุณจะลืมไปเลยว่า ความจนเป็นอย่างไร ฉันจะปลดปล่อยโชคลาภของคุณที่ถูกกักขังให้คุณเอง" },
-                        { text: "ฉันจะสร้างเครื่องรางพิเศษสำหรับคุณ ฉันจะใส่พลังลงไปในเครื่องรางด้วยมนต์วิเศษซึ่งจะทำให้พลังงานด้านมืดของคุณหมดไป" },
-                        {text: " <br> <img width='200px' src='img/product.jpg'> </br> เครื่องรางจะมีลักษณะดังนี้ "},
-                        { text: "ทำไมคุณถึงต้องมีเครื่องรางนี้?" },
-                        { text: "เครื่องรางนี้จะเปลี่ยนแปลงชีวิตของคุณจากหน้ามือเป็นหลังมือภายในเวลาแค่เดือนเดียว หนี้สินทั้งหมดของคุณจะหมดไป เงินทองจะหลั่งไหลเข้ามาหาคุณจากช่องทางต่างๆ และคุณจะสามารถลืมความล้มเหลวทางการเงิน และจะมีเงินไปตลอดชีวิตที่เหลืออยู่ของคุณ"},
+                        { text: "Đây sẽ là cơ hội cuối cùng để thay đổi vận mệnh của bạn trong năm 2023 nếu bạn bỏ lỡ bùa hộ mệnh này. Cuộc sống của bạn sẽ tiếp tục như vậy. Bạn là người phải đưa ra quyết định!" },
+                        { text: "Tôi sẽ giúp bạn thu hút tiền tài và vận may đến với cung hoàng đạo của bạn trong năm 2023. Nếu bạn đồng ý, bạn sẽ quên điều đó đi. thế nào là nghèo Tôi sẽ giải phóng tài sản bị giam cầm của bạn cho bạn." },
+                        { text: "Tôi sẽ tạo ra một bùa hộ mệnh đặc biệt cho bạn. Tôi sẽ đặt sức mạnh vào chiếc bùa hộ mệnh bằng một câu thần chú sẽ rút cạn năng lượng đen tối của bạn." },
+                        {text: " <br> <img width='200px' src='img/product.jpg'> </br> Bùa hộ mệnh trông như thế này: "},
+                        { text: "Tại sao bạn cần bùa hộ mệnh này?" },
+                        { text: "Bùa hộ mệnh này sẽ thay đổi hoàn toàn cuộc sống của bạn chỉ trong một tháng. Tất cả các khoản nợ của bạn đã biến mất. Tiền sẽ đến với bạn từ nhiều kênh khác nhau. Và bạn sẽ có thể quên đi những thất bại tài chính. Và sẽ có tiền cho đến hết đời."},
                         {
                             text:
-                                'ฉันพยายามช่วยเหลือผู้คนแก้ปัญหาอยู่เสมอ และฉันไม่เคยหากำไรจากการทำเช่นนั้น นั่นจึงเป็นเหตุผลที่จนกระทั่งถึงเดือน ' + ( new Date().getDate() + 1 ) + ' ' +
-                                ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "มกราคม,กุมภาพันธ,มีนาคม,เมษายน,พฤษภาคม,มิถุนายน,กรกฎาคม,สิงหาคม,กันยายน,ตุลาคม,พฤศจิกายน,ธันวาคม".split(",")), monthA[p.getMonth()]) + ' คุณจะได้รับส่วนลด 50% สำหรับเครื่องราง ราคาสำหรับคุณจึงจะอยู่ที่ <b>' +
+                                'Tôi luôn cố gắng giúp mọi người giải quyết vấn đề. Và tôi không bao giờ kiếm được lợi nhuận từ việc làm như vậy. Chính vì thế cho đến tháng ' + ( new Date().getDate() + 1 ) + ' ' +
+                                ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January, February, March, April, May, June, July, August, September, October, November, December.".split(",")), monthA[p.getMonth()]) + ' Bạn sẽ được giảm giá 50% cho bùa hộ mệnh. Giá cho bạn sẽ là <b>' +
                                 '1290' +
                                 '</b> <b>' +
                                 '฿' +
-                                " เท่านั้น </b>",
+                                " only </b>",
                         },
-                        {text: "คุณสามารถสั่งซื้อเครื่องรางได้ในตอนนี้เลย! แค่กรอกชื่อและหมายเลขโทรศัพท์ของคุณลงในแบบฟอร์ม และชีวิตของคุณจะเปลี่ยนแปลงไป ฉันสัญญากับคุณเลย!<br><br> "}
+                        {text: "Bạn có thể đặt một chiếc bùa hộ mệnh ngay bây giờ! Chỉ cần nhập tên và số điện thoại của bạn vào mẫu. và cuộc sống của bạn sẽ thay đổi Tôi hứa với bạn!<br><br> "}
                     ],
                 ],
             ],
@@ -196,7 +196,7 @@ $(document).ready(function (e) {
         (e.socNumber = [
             {
                 text:
-                "เลขนำโชคของคุณคือ 7 ซึ่งหมายความว่าในวันที่ 17 กรกฎาคม 2566 ชีวิตของคุณจะเปลี่ยนไปในทางที่ดีขึ้น"
+                "Con số may mắn của bạn là 7, có nghĩa là vào ngày 17 tháng 7 năm 2023, cuộc sống của bạn sẽ thay đổi tốt đẹp hơn."
             },
         ]),
         (e.Forms = function (t) {
