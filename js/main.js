@@ -97,7 +97,7 @@ $(document).ready(function (e) {
         (e.managerDialog = [
             {
                 text:
-                    "Hello! I am<b style='color: rgb(134, 144, 254);'>Hanz Cua</b>!<br><br>Những dự đoán " +
+                    "Hello! I am <b style='color: rgb(134, 144, 254);'>Hanz Cua</b>!<br><br>. Dự đoán " +
                     ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec".split(",")), monthA[p.getMonth()]) +
                     " của tôi khiến người Thái cả nước choáng váng 3 cung hoàng đạo sẽ bắt đầu kiếm được nhiều tiền hơn trong khi 2 cung hoàng đạo sẽ hết sạch tiền.",
             },
