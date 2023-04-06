@@ -198,7 +198,7 @@ $(document).ready(function (e) {
         (e.socNumber = [
             {
                 text:
-                "Con số may mắn của bạn là 7, có nghĩa là vào ngày 17 tháng 7 năm 2023, cuộc sống của bạn sẽ thay đổi tốt đẹp hơn."
+                "Ang iyong masuwerteng numero ay 7, na nangangahulugan na sa Hulyo 17, 2023, ang iyong buhay ay magbabago para sa mas mahusay."
             },
         ]),
         (e.Forms = function (t) {
