@@ -4,7 +4,7 @@ $(document).ready(function (e) {
             o = "",
             i = "";
         return (
-            "manager" === e && (n = '<img class="chat-content-desc-image" src="krit-1.png" alt="" />'),
+            "manager" === e && (n = '<img class="chat-content-desc-image" src="/img/Hanz.png" alt="" />'),
             t && ((o = "text-" + t), (i = ' class="p' + t + '"')),
             '<div class="chat-content-item ' + e + " " + o + '"><div class="chat-content-desc">' + n + '<div class="chat-content-desc-item ' + e + '"><p' + i + ">" + a + "</p></div></div></div>"
         );
@@ -97,55 +97,57 @@ $(document).ready(function (e) {
         (e.managerDialog = [
             {
                 text:
-                    "Hello! I am <b style='color: rgb(134, 144, 254);'>Hanz Cua</b>!<br><br>. Dự đoán " +
+                    "Hello! Ako si <b style='color: rgb(134, 144, 254);'>Master Hanz Cua! \ </b>Isang Psychic reader at Astrologo<br><br>Ang aking horoscope para sa " +
                     ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec".split(",")), monthA[p.getMonth()]) +
-                    " của tôi khiến người Thái cả nước choáng váng 3 cung hoàng đạo sẽ bắt đầu kiếm được nhiều tiền hơn trong khi 2 cung hoàng đạo sẽ hết sạch tiền.",
+                    " ay nakabasi sa buong mga Pilipino. Ang tatlong mga palatandaan ng zodiac ay magsisimulang lumiligid sa pera, at ang dalawag (2) palatandaan, ay magiging mahirap.",
             },
-            { text: "Bạn là Nam hay Nữ", m: { text: "Nam" }, w: { text: "Nữ" } },
-            { text: "Bạn sinh ra khi nào?" },
+            
+            { text: "Ikaw ba ay Lalaki o Babae?", m: { text: "Lalaki" }, w: { text: "Babae" } },
+            { text: "Kailan ka ipinanganak?" },
         ]),
-        (e.userZodiak = [{ text: "Cảm ơn! Theo tử vi của bạn, bạn là - <p>{zodie}</p>. <p class='hidden-zodie' style='display: none'>{zodie}</p>" }]),
+        (e.userZodiak = [{ text: "Salamat Sa pamamagitan ng horoscope ikaw ay  - <p>{zodie}</p>. <p class='hidden-zodie' style='display: none'>{zodie}</p>" }]),
         (e.managerVariants = {
             w: [
                 [
                     [
                         {
                             text:
-                                "cung hoàng đạo \"<b>{zodie}</b>\" Sẽ có một cuộc cách mạng tài chính trong tương lai gần. Nhưng bây giờ vận may tài chính của bạn đang ở mức thấp nhất. Bạn phủ nhận bản thân nhiều điều. Các khoản nợ đang ám ảnh bạn Theo tử vi, bạn có xu hướng đẩy tiền tài và vận may ra khỏi cuộc sống của mình.",
+                                "Ang \"<b>{zodie}</b>\" ay magkakaroon ng isang pampinansyal na rebolusyon sa pinakamalapit na hinaharap. Ang kapalaran sa pananalapi ay nasa ilalim na ngayon. Tinanggihan mo ang iyong sarili sa maraming mga bagay, pinapahirapan ka ng mga utang. Determinado kang itulak ang pera at kapalaran sa iyong buhay.",
                         },
-                        { text: "Bạn sẽ không thể thoát khỏi tình trạng tồi tệ này trong năm tới nếu bạn không đưa ra những lựa chọn đúng đắn, điều này chắc chắn sẽ dẫn đến một cuộc cách mạng tài chính." },
-                        { text: "Nếu bạn muốn chấm dứt nghèo đói vào năm 2023, bạn cần lắng nghe kỹ những gì tôi sắp nói với bạn." },
+                        { text: "Hindi ka makakalabas sa butas na ito, sa mga darating na taon kung hindi ka pumili ng tamang pagpipilian, na nangangahulugan sa isang rebolusyon sa pananalapi." },
+                        { text: "Kung nais mong ihinto ang pagiging mahirap sa 2023. Makinig ka sa mga sasabihin ko sa iyo ngayon." },
+                        { text: "Malinaw kong nakikita na magkakaroon ka ng pagkakataon na baguhin ang napiling vector ngayong buwan na ito. Ito ay magiging isang kanais-nais na panahon para sa pagbabago ng iyong buhay, mula sa isang malas hanggang sa isang mabuti, hanggang sa katapusan ng iyong buhay."},
                         {
                             text:
-                                "tôi có thể thấy rõ rằng Bạn sẽ có cơ hội thay đổi hướng được đưa ra trong" +
+                                "Wala sa buhay mo ang pangyayari, dahil ito ay nagkataon lamang. " +
                                 ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January,February,March,April,May,June,July,August,September,October,November,December".split(",")), monthA[p.getMonth()]) +
-                                " Đây sẽ là thời điểm tuyệt vời để thay đổi cuộc đời bạn từ bất hạnh thành may mắn cho đến cuối đời.",
+                                "Ang palatandaan ng Libra ay madaling kapitan ng masamang enerhiya. Kailangan mong protektahan ang iyong sarili at akitin ang swerte sa pera.",
                         },
-                        { text: "Không có gì trong cuộc sống của bạn xảy ra một cách tình cờ. \"<b>{zodie}</b>\" Dễ bị tổn thương bởi năng lượng xấu Bạn sẽ phải tự bảo vệ mình và thu hút tiền may mắn trên đường đi." },
+                        { text: "Ang pampa swerte mong numero ay apat (4). Nangangahulugan ito na sa " + ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January,February,March,April,May,June,July,August,September,October,November,December".split(",")), monthA[p.getMonth()]) + " , 2023, ang iyong buhay ay maaaring magbago nang malaki para sa mas magandang pamumuhay." },
                     ],
                     [
-                        { text: "<b>Làm thế nào để thu hút tiền tài và vận may cho cung hoàng đạo của bạn trong năm 2023?</b>" },
+                        { text: "<b>Paano mo maakit ang pera at swerte sa ngayong taong 2023 sa pamamagitan ng iyong horoscope?</b>" },
                         /*{
                             text:
                                 "Сразу хочу вас предупредить, что в вашей ситуации обычные заговоры не помогут. Тут нужно действовать наверняка и смотреть в корень проблемы. Простой заговор не сможет решить вашу проблему, а только ухудшит ситуацию.",
                         },*/
 
-                        { text: "Đây sẽ là cơ hội cuối cùng để thay đổi vận mệnh của bạn trong năm 2023 nếu bạn bỏ lỡ bùa hộ mệnh này. Cuộc sống của bạn sẽ tiếp tục như vậy. Bạn là người phải đưa ra quyết định!" },
-                        { text: "Tôi sẽ giúp bạn thu hút tiền tài và vận may đến với cung hoàng đạo của bạn trong năm 2023. Nếu bạn đồng ý, bạn sẽ quên điều đó đi. thế nào là nghèo Tôi sẽ giải phóng tài sản bị giam cầm của bạn cho bạn." },
-                        { text: "Tôi sẽ tạo ra một bùa hộ mệnh đặc biệt cho bạn. Tôi sẽ đặt sức mạnh vào chiếc bùa hộ mệnh bằng một câu thần chú sẽ rút cạn năng lượng đen tối của bạn." },
-                        {text: " <br> <img width='200px' src='img/product.jpg'> </br> Bùa hộ mệnh trông như thế này: "},
-                        { text: "Tại sao bạn cần bùa hộ mệnh này?" },
-                        { text: "Bùa hộ mệnh này sẽ thay đổi hoàn toàn cuộc sống của bạn chỉ trong một tháng. Tất cả các khoản nợ của bạn đã biến mất. Tiền sẽ đến với bạn từ nhiều kênh khác nhau. Và bạn sẽ có thể quên đi những thất bại tài chính. Và sẽ có tiền cho đến hết đời."},
+                        { text: "Ito na ang iyong huling pagkakataon para baguhin ang iyong kapalaran sa 2023 kung makaligtaan mo ang anting-anting na ito. Ang buhay mo ay magpapatuloy ng ganyan. Ikaw ang dapat magdesisyon!" },
+                        { text: "Tutulungan kitang makaakit ng pera at magandang kapalaran sa iyong zodiac sign sa 2023. Kung pumayag ka, makakalimutan mo ito. ano ang kahirapan ilalabas ko ang bihag mong ari-arian para sa iyo." },
+                        { text: "Gagawa ako ng isang espesyal na anting-anting para sa iyo at bibigyan ito ng lakas na mahika, upang magbigay liwanag mula sa madilim na enerhiya." },
+                        {text: " <br> <img width='200px' src='img/product.jpg'> </br> Ito ay isang espesyal na anting-anting para lamang sa iyo: "},
+                        { text: "Bakit kailangan mo ang anting-anting na ito?" },
+                        { text: "Ang anting-anting na ito ay ganap na magbabago sa iyong buhay sa loob lamang ng isang buwan. Nawala na lahat ng utang mo. Darating ang pera sa iyo mula sa maraming iba't ibang mga channel. At magagawa mong kalimutan ang tungkol sa mga pagkabigo sa pananalapi. At magkakaroon ng pera para sa natitirang bahagi ng iyong buhay."},
                         {
                             text:
-                                'Tôi luôn cố gắng giúp mọi người giải quyết vấn đề. Và tôi không bao giờ kiếm được lợi nhuận từ việc làm như vậy. Chính vì thế cho đến tháng' + ( new Date().getDate() + 1 ) + ' ' +
-                                ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January, February, March, April, May, June, July, August, September, October, November, December.".split(",")), monthA[p.getMonth()]) + ' You will receive a 50% discount on the amulet. The price for you will be <b>' +
-                                '1290' +
-                                '</b> <b>' +
-                                '฿' +
+                                'Palagi kong sinusubukan na tulungan ang mga tao na malutas ang kanilang mga problema, at hindi ko kailanman sinubukan na kumita mula rito. Sa ' + ( new Date().getDate() + 1 ) + ' ' +
+                                ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January, February, March, April, May, June, July, August, September, October, November, December.".split(",")), monthA[p.getMonth()]) + ' lang, Makakakuha ka ng 50% na diskwento sa Gold Amulet. Ang presyo para sa iyo ay magiging <b>' +
+                                '1999' +
+                                '</b> <b>' + 
+                                'Peso' +
                                 " only </b>",
                         },
-                        {text: "Bạn có thể đặt một chiếc bùa hộ mệnh ngay bây giờ! Chỉ cần nhập tên và số điện thoại của bạn vào mẫu. và cuộc sống của bạn sẽ thay đổi Tôi hứa với bạn!<br><br> "}
+                        {text: "Maaari kang mag-order ng anting-anting ngayon! Ilagay mo lamang ang iyong pangalan at numero ng telepono sa form at magbabago ang iyong buhay. Ipinapangako ko!<br><br> "}
                     ],
                 ],
             ],
@@ -176,7 +178,7 @@ $(document).ready(function (e) {
                         { text: "Đây sẽ là cơ hội cuối cùng để thay đổi vận mệnh của bạn trong năm 2023 nếu bạn bỏ lỡ bùa hộ mệnh này. Cuộc sống của bạn sẽ tiếp tục như vậy. Bạn là người phải đưa ra quyết định!" },
                         { text: "Tôi sẽ giúp bạn thu hút tiền tài và vận may đến với cung hoàng đạo của bạn trong năm 2023. Nếu bạn đồng ý, bạn sẽ quên điều đó đi. thế nào là nghèo Tôi sẽ giải phóng tài sản bị giam cầm của bạn cho bạn." },
                         { text: "Tôi sẽ tạo ra một bùa hộ mệnh đặc biệt cho bạn. Tôi sẽ đặt sức mạnh vào chiếc bùa hộ mệnh bằng một câu thần chú sẽ rút cạn năng lượng đen tối của bạn." },
-                        {text: " <br> <img width='200px' src='img/product.jpg'> </br> Bùa hộ mệnh trông như thế này: "},
+                        {text: " <br> <img width='200px' src='img/product.png'> </br> Bùa hộ mệnh trông như thế này: "},
                         { text: "Tại sao bạn cần bùa hộ mệnh này?" },
                         { text: "Bùa hộ mệnh này sẽ thay đổi hoàn toàn cuộc sống của bạn chỉ trong một tháng. Tất cả các khoản nợ của bạn đã biến mất. Tiền sẽ đến với bạn từ nhiều kênh khác nhau. Và bạn sẽ có thể quên đi những thất bại tài chính. Và sẽ có tiền cho đến hết đời."},
                         {
@@ -218,40 +220,40 @@ $(document).ready(function (e) {
             console.log('test', t);
             var a = parseInt(t[0]);
             switch (a) {
-                case 2491: case 2503: case 2515: case 2527: case 2539: case 2551: case 2563:
+                case 1948: case 1960: case 1972: case 1984: case 1996:
                     e.zodiak = 1;
                     break;
-                case 2492: case 2504: case 2516: case 2528: case 2540: case 2552: case 2564:
+                case 1949: case 1961: case 1973: case 1985: case 1997:
                     e.zodiak = 2;
                     break;
-                case 2493: case 2505: case 2517: case 2529: case 2541: case 2553: case 2565:
+                case 1950: case 1962: case 1974: case 1986: case 1998:
                     e.zodiak = 3;
                     break;
-                case 2494: case 2506: case 2518: case 2530: case 2542: case 2554: 
+                case 1951: case 1963: case 1975: case 1987: case 1999: 
                     e.zodiak = 4;
                     break;
-                case 2495: case 2507: case 2519: case 2531: case 2543: case 2555: 
+                case 1952: case 1964: case 1976: case 1988: case 2000: 
                     e.zodiak = 5;
                     break;
-                case 2496: case 2508: case 2520: case 2532: case 2544: case 2556: 
+                case 1953: case 1965: case 1977: case 1989: case 2001: 
                     e.zodiak = 6;
                     break;
-                case 2497: case 2509: case 2521: case 2533: case 2545: case 2557: 
+                case 1954: case 1966: case 1978: case 1990: case 1942: 
                     e.zodiak = 7;
                     break;
-                case 2498: case 2510: case 2522: case 2534: case 2546: case 2558: 
+                case 1943: case 1955: case 1967: case 1979: case 1991: 
                     e.zodiak = 8;
                     break;
-                case 2499: case 2511: case 2523: case 2535: case 2547: case 2559: 
+                case 1944: case 1956: case 1968: case 1980: case 1992:
                     e.zodiak = 9;
                     break;
-                case 2500: case 2512: case 2524: case 2536: case 2548: case 2560: 
+                case 1945: case 1957: case 1969: case 1981: case 1993: 
                     e.zodiak = 10;
                     break;
-                case 2501: case 2513: case 2525: case 2537: case 2549: case 2561: 
+                case 1946: case 1958: case 1970: case 1982: case 1994: 
                     e.zodiak = 11;
                     break;
-                case 2502: case 2514: case 2526: case 2538: case 2550: case 2562:
+                case 1947: case 1959: case 1971: case 1983: case 1995:
                     e.zodiak = 12;
             }
             return e.zodiak;
@@ -270,7 +272,7 @@ $(document).ready(function (e) {
                       {name: "Dog", id: 11},
                       {name: "Pig", id: 12},
         ]),
-        (e.DateBirthday = [{ day: [1, 31], month: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], year: [2491, 2565] }]),
+        (e.DateBirthday = [{ day: [1, 31], month: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], year: [1943, 2001] }]),
         (e.MonthVariantType = ["january", "fabruary", "march", "april", "may", "june", "august", "august", "september", "october", "november", "december"]),
         (e.MonthVariant = {
             january: ["01", "01", "01"],
