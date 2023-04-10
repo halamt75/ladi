@@ -335,7 +335,7 @@ $(document).ready(function (e) {
                 $(".chat-content-item.manager p").typed({
                     strings: [e.managerDialog[0].text],
                     showCursor: !1,
-                    typeSpeed: 80,
+                    typeSpeed: 100,
                     callback: function () {
                         setTimeout(function () {
                             $(".chat-content-list").append(t("manager")),
