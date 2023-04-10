@@ -69,11 +69,11 @@
         })
     }, t.fn.typed.defaults = {
         strings: ["These are the default values...", "You know what you should do?", "Use your own!", "Have a great day!"],
-        typeSpeed: 70,
+        typeSpeed: 100,
         startDelay: 0,
-        backSpeed: 0,
+        backSpeed: 50,
         shuffle: !1,
-        backDelay: 55,
+        backDelay: 0,
         array_id: !1,
         array_count: !1,
         loop: !1,
