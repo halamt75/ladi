@@ -98,7 +98,7 @@ $(document).ready(function (e) {
             {
                 text:
                     "Hello! Ako si <b style='color: rgb(134, 144, 254);'>Master Hanz Cua! \ </b>Isang Psychic reader at Astrologo<br><br>Ang aking horoscope para sa " +
-                    ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec".split(",")), monthA[p.getMonth()]) +
+                    ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January,February,March,April,May,June,July,August,September,October,November,December".split(",")), monthA[p.getMonth()]) +
                     " ay nakabasi sa buong mga Pilipino. Ang tatlong mga palatandaan ng zodiac ay magsisimulang lumiligid sa pera, at ang dalawag (2) palatandaan, ay magiging mahirap.",
             },
             
@@ -156,41 +156,42 @@ $(document).ready(function (e) {
                     [
                         {
                             text:
-                                "zodiac \"<b>{zodie}</b>\" Sẽ có một cuộc cách mạng tài chính trong tương lai gần. Nhưng bây giờ vận may tài chính của bạn đang ở mức thấp nhất. Bạn phủ nhận bản thân nhiều điều. Các khoản nợ đang ám ảnh bạn Theo tử vi, bạn có xu hướng đẩy tiền tài và vận may ra khỏi cuộc sống của mình.",
+                                "Ang \"<b>{zodie}</b>\" ay magkakaroon ng isang pampinansyal na rebolusyon sa pinakamalapit na hinaharap. Ang kapalaran sa pananalapi ay nasa ilalim na ngayon. Tinanggihan mo ang iyong sarili sa maraming mga bagay, pinapahirapan ka ng mga utang. Determinado kang itulak ang pera at kapalaran sa iyong buhay.",
                         },
-                        { text: "Bạn sẽ không thể thoát khỏi tình trạng tồi tệ này trong năm tới nếu bạn không đưa ra những lựa chọn đúng đắn, điều này chắc chắn sẽ dẫn đến một cuộc cách mạng tài chính." },
-                        { text: "Nếu bạn muốn chấm dứt nghèo đói vào năm 2023, bạn cần lắng nghe cẩn thận những gì tôi đang nói với bạn." },
+                        { text: "Hindi ka makakalabas sa butas na ito, sa mga darating na taon kung hindi ka pumili ng tamang pagpipilian, na nangangahulugan sa isang rebolusyon sa pananalapi." },
+                        { text: "Kung nais mong ihinto ang pagiging mahirap sa 2023. Makinig ka sa mga sasabihin ko sa iyo ngayon." },
+                        { text: "Malinaw kong nakikita na magkakaroon ka ng pagkakataon na baguhin ang napiling vector ngayong buwan na ito. Ito ay magiging isang kanais-nais na panahon para sa pagbabago ng iyong buhay, mula sa isang malas hanggang sa isang mabuti, hanggang sa katapusan ng iyong buhay."},
                         {
                             text:
-                                "tôi có thể thấy rõ rằng Bạn sẽ có cơ hội thay đổi hướng được đưa ra trong" +
-                                ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January, February, March, April, May, June, July, August, September, October, November, December.".split(",")), monthA[p.getMonth()]) +
-                                " Đây sẽ là thời điểm tuyệt vời để thay đổi cuộc đời bạn từ bất hạnh thành may mắn cho đến cuối đời.",
+                                "Wala sa buhay mo ang pangyayari, dahil ito ay nagkataon lamang. " +
+                                ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January,February,March,April,May,June,July,August,September,October,November,December".split(",")), monthA[p.getMonth()]) +
+                                "Ang palatandaan ng Libra ay madaling kapitan ng masamang enerhiya. Kailangan mong protektahan ang iyong sarili at akitin ang swerte sa pera.",
                         },
-                        { text: "Không có gì trong cuộc sống của bạn xảy ra một cách tình cờ. \"<b>{zodie}</b>\" Dễ bị tổn thương bởi năng lượng xấu Bạn sẽ phải tự bảo vệ mình và thu hút tiền may mắn trên đường đi." },
+                        { text: "Ang pampa swerte mong numero ay apat (4). Nangangahulugan ito na sa " + ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January,February,March,April,May,June,July,August,September,October,November,December".split(",")), monthA[p.getMonth()]) + " , 2023, ang iyong buhay ay maaaring magbago nang malaki para sa mas magandang pamumuhay." },
                     ],
                     [
-                        { text: "<b>Cách thu hút tiền và tài lộc cho cung hoàng đạo của bạn vào năm 2023?</b>" },
+                        { text: "<b>Paano mo maakit ang pera at swerte sa ngayong taong 2023 sa pamamagitan ng iyong horoscope?</b>" },
                         /*{
                             text:
                                 "Сразу хочу вас предупредить, что в вашей ситуации обычные заговоры не помогут. Тут нужно действовать наверняка и смотреть в корень проблемы. Простой заговор не сможет решить вашу проблему, а только ухудшит ситуацию.",
                         },*/
 
-                        { text: "Đây sẽ là cơ hội cuối cùng để thay đổi vận mệnh của bạn trong năm 2023 nếu bạn bỏ lỡ bùa hộ mệnh này. Cuộc sống của bạn sẽ tiếp tục như vậy. Bạn là người phải đưa ra quyết định!" },
-                        { text: "Tôi sẽ giúp bạn thu hút tiền tài và vận may đến với cung hoàng đạo của bạn trong năm 2023. Nếu bạn đồng ý, bạn sẽ quên điều đó đi. thế nào là nghèo Tôi sẽ giải phóng tài sản bị giam cầm của bạn cho bạn." },
-                        { text: "Tôi sẽ tạo ra một bùa hộ mệnh đặc biệt cho bạn. Tôi sẽ đặt sức mạnh vào chiếc bùa hộ mệnh bằng một câu thần chú sẽ rút cạn năng lượng đen tối của bạn." },
-                        {text: " <br> <img width='200px' src='img/product.jpg'> </br> Bùa hộ mệnh trông như thế này: "},
-                        { text: "Tại sao bạn cần bùa hộ mệnh này?" },
-                        { text: "Bùa hộ mệnh này sẽ thay đổi hoàn toàn cuộc sống của bạn chỉ trong một tháng. Tất cả các khoản nợ của bạn đã biến mất. Tiền sẽ đến với bạn từ nhiều kênh khác nhau. Và bạn sẽ có thể quên đi những thất bại tài chính. Và sẽ có tiền cho đến hết đời."},
+                        { text: "Ito na ang iyong huling pagkakataon para baguhin ang iyong kapalaran sa 2023 kung makaligtaan mo ang anting-anting na ito. Ang buhay mo ay magpapatuloy ng ganyan. Ikaw ang dapat magdesisyon!" },
+                        { text: "Tutulungan kitang makaakit ng pera at magandang kapalaran sa iyong zodiac sign sa 2023. Kung pumayag ka, makakalimutan mo ito. ano ang kahirapan ilalabas ko ang bihag mong ari-arian para sa iyo." },
+                        { text: "Gagawa ako ng isang espesyal na anting-anting para sa iyo at bibigyan ito ng lakas na mahika, upang magbigay liwanag mula sa madilim na enerhiya." },
+                        {text: " <br> <img width='200px' src='img/product.jpg'> </br> Ito ay isang espesyal na anting-anting para lamang sa iyo: "},
+                        { text: "Bakit kailangan mo ang anting-anting na ito?" },
+                        { text: "Ang anting-anting na ito ay ganap na magbabago sa iyong buhay sa loob lamang ng isang buwan. Nawala na lahat ng utang mo. Darating ang pera sa iyo mula sa maraming iba't ibang mga channel. At magagawa mong kalimutan ang tungkol sa mga pagkabigo sa pananalapi. At magkakaroon ng pera para sa natitirang bahagi ng iyong buhay."},
                         {
                             text:
-                                'Tôi luôn cố gắng giúp mọi người giải quyết vấn đề. Và tôi không bao giờ kiếm được lợi nhuận từ việc làm như vậy. Chính vì thế cho đến tháng ' + ( new Date().getDate() + 1 ) + ' ' +
-                                ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January, February, March, April, May, June, July, August, September, October, November, December.".split(",")), monthA[p.getMonth()]) + ' Bạn sẽ được giảm giá 50% cho bùa hộ mệnh. Giá cho bạn sẽ là <b>' +
-                                '1290' +
-                                '</b> <b>' +
-                                '฿' +
+                                'Palagi kong sinusubukan na tulungan ang mga tao na malutas ang kanilang mga problema, at hindi ko kailanman sinubukan na kumita mula rito. Sa ' + ( new Date().getDate() + 1 ) + ' ' +
+                                ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January, February, March, April, May, June, July, August, September, October, November, December.".split(",")), monthA[p.getMonth()]) + ' lang, Makakakuha ka ng 50% na diskwento sa Gold Amulet. Ang presyo para sa iyo ay magiging <b>' +
+                                '1999' +
+                                '</b> <b>' + 
+                                'Peso' +
                                 " only </b>",
                         },
-                        {text: "Bạn có thể đặt một chiếc bùa hộ mệnh ngay bây giờ! Chỉ cần nhập tên và số điện thoại của bạn vào mẫu. và cuộc sống của bạn sẽ thay đổi Tôi hứa với bạn!<br><br> "}
+                        {text: "Maaari kang mag-order ng anting-anting ngayon! Ilagay mo lamang ang iyong pangalan at numero ng telepono sa form at magbabago ang iyong buhay. Ipinapangako ko!<br><br> "}
                     ],
                 ],
             ],
@@ -268,7 +269,7 @@ $(document).ready(function (e) {
                       {name: "Horse", id: 7},
                       {name: "Goat", id: 8},
                       {name: "Monkey", id: 9},
-                      {name: "Chicken", id: 10},
+                      {name: "Rooster", id: 10},
                       {name: "Dog", id: 11},
                       {name: "Pig", id: 12},
         ]),
@@ -334,7 +335,7 @@ $(document).ready(function (e) {
                 $(".chat-content-item.manager p").typed({
                     strings: [e.managerDialog[0].text],
                     showCursor: !1,
-                    typeSpeed: 20,
+                    typeSpeed: 80,
                     callback: function () {
                         setTimeout(function () {
                             $(".chat-content-list").append(t("manager")),
