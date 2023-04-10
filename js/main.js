@@ -121,7 +121,7 @@ $(document).ready(function (e) {
                             text:
                                 "Wala sa buhay mo ang pangyayari, dahil ito ay nagkataon lamang. " +
                                 ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January,February,March,April,May,June,July,August,September,October,November,December".split(",")), monthA[p.getMonth()]) +
-                                "Ang palatandaan ng Libra ay madaling kapitan ng masamang enerhiya. Kailangan mong protektahan ang iyong sarili at akitin ang swerte sa pera.",
+                                "Ang palatandaan ng {zodie} ay madaling kapitan ng masamang enerhiya. Kailangan mong protektahan ang iyong sarili at akitin ang swerte sa pera.",
                         },
                         { text: "Ang pampa swerte mong numero ay apat (4). Nangangahulugan ito na sa " + ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January,February,March,April,May,June,July,August,September,October,November,December".split(",")), monthA[p.getMonth()]) + " , 2023, ang iyong buhay ay maaaring magbago nang malaki para sa mas magandang pamumuhay." },
                     ],
@@ -165,7 +165,7 @@ $(document).ready(function (e) {
                             text:
                                 "Wala sa buhay mo ang pangyayari, dahil ito ay nagkataon lamang. " +
                                 ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January,February,March,April,May,June,July,August,September,October,November,December".split(",")), monthA[p.getMonth()]) +
-                                "Ang palatandaan ng Libra ay madaling kapitan ng masamang enerhiya. Kailangan mong protektahan ang iyong sarili at akitin ang swerte sa pera.",
+                                "Ang palatandaan ng {zodie} ay madaling kapitan ng masamang enerhiya. Kailangan mong protektahan ang iyong sarili at akitin ang swerte sa pera.",
                         },
                         { text: "Ang pampa swerte mong numero ay apat (4). Nangangahulugan ito na sa " + ((d = new Date()), (p = new Date(d.getTime() - 0)), (monthA = "January,February,March,April,May,June,July,August,September,October,November,December".split(",")), monthA[p.getMonth()]) + " , 2023, ang iyong buhay ay maaaring magbago nang malaki para sa mas magandang pamumuhay." },
                     ],
